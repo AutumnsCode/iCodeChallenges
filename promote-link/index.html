@@ -7,7 +7,56 @@
   <link rel="stylesheet" href="src/index.css">
   <script src="src/main.js" defer></script>
 </head>
-<body>
-  
+<body class="bg-blue-200 min-h-screen flex items-center justify-center py-4">
+  <main class="w-full mx-4 max-w-2xl grid max-sm:gap-2 sm:grid-cols-9 sm:grid-rows-[max-content_2em_max-content] isolate relative sm:first:*:col-start-5 sm:first:*:row-start-1 sm:first:*:col-span-5 sm:first:*:row-span-2 sm:last:*:-z-10 sm:last:*:col-start-1 sm:last:*:row-span-2 sm:last:*:col-span-6 sm:last:*:row-start-2 *:px-8 *:py-12 *:shadow-xl *:shadow-blue-950/20 *:bg-white *:rounded-3xl *:space-y-3 [&_h2]:text-blue-950 [&_h2]:font-medium [&_h2]:text-xl [&_p]:text-sm [&_small]:text-xs [&_section]:text-sm [&_option]:text-sm [&_input]:text-sm [&>form>p]:px-4 [&_form_p]:py-2 [&_form_p]:border-2 [&_select]:px-4 [&_select]:py-2  [&_select]:mx-0 [&_select]:border-2 *:leading-none">
+    <section>
+      <h2>Create a Link</h2>
+      <p>Promote any brand with a simple link</p>
+      <form class="grid grid-cols-1 *:w-full space-y-2">
+        <select name="select" id="brand" class="">
+          <option value="lorem1">Lorem 1</option>
+          <option value="lorem2">lorem 2</option>
+          <option value="lorem3">lorem 3</option>
+          <option value="lorem4">lorem 4</option>
+        </select>
+        <input type="url" name="url" id="url">
+        <div class="grid grid-cols-2 gap-4 *:py-2 *:border-2 *:rounded-full">
+          <button type="button">Joined</button>
+          <button type="button">Create</button>
+        </div>
+      </form>
+    </section>
+    <section>
+      <h2>Promote</h2>
+      <div>
+        <p>Use this link to promote</p>
+        <small>Link updates may take up to 5 minutes to propogate</small>
+      </div>
+      <form class="grid grid-cols-[max-content_1fr] *:w-full space-y-2">
+        <select name="select" id="brand">
+          <option value="lorem1">Lorem 1</option>
+          <option value="lorem2">lorem 2</option>
+        </select>
+        <p>lorem</p>
+      </form>
+      <div>
+        <h3>Share</h3>
+        <div class="flex gap-2">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+          </a>
+          <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
