@@ -1,0 +1,43 @@
+@use 'sass:map';
+@use 'sass:math';
+@use 'sass:meta';
+@use 'breakpoints' as *;
+
+@mixin minq($size) {
+  @if map.has-key($breakpoints, $size) {
+    $breakpoint: map-get($breakpoints, $size);
+    @media screen and (min-width: $breakpoint) {
+      @content;
+    }
+  } @else if meta.type-of($size) == number {
+    @if math.is-unitless($size) {
+      @error 'please add a unit';
+    } @else {
+      @media screen and (min-width: $size) {
+        @content;
+      }
+    }
+  } @else {
+    @error '$size is not a breakpoint';
+  }
+};
+
+
+@mixin maxq($size) {
+  @if map.has-key($breakpoints, $size) {
+    $breakpoint: map-get($breakpoints, $size);
+    @media screen and (max-width: $breakpoint) {
+      @content;
+    }
+  } @else if meta.type-of($size) == number {
+    @if math.is-unitless($size) {
+      @error 'please add a unit';
+    } @else {
+      @media screen and (max-width: $size) {
+        @content;
+      }
+    }
+  } @else {
+    @error '$size is not a breakpoint';
+  }
+};

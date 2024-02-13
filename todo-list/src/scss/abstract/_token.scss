@@ -1,0 +1,77 @@
+@use 'colors' as *;
+@use 'sizes' as *;
+@use 'typography' as *;
+
+// theme
+$theme: $light;
+$dark-mode: false;
+
+// Contextual
+
+$text-default: $clr-text-100;
+$background-default: $clr-background-100;
+$interactive-default: $clr-accent-100;
+$interactive-hover: $clr-accent-70;
+
+$letter-spacing: 0;
+$rounded-1: $size-5;
+$rounded-1: $size-9;
+
+$box-shadow-1: 0px 6px 5px rgb(0, 0, 0, 0.012),
+  0px 22px 18px rgb(0, 0, 0, 0.018), 0px 100px 80px rgb(0, 0, 0, 0.03);
+
+$box-shadow-2: 0px 6px 5px rgb(0, 0, 0, 0.016),
+  0px 22px 18px rgb(0, 0, 0, 0.024), 0px 100px 80px rgb(0, 0, 0, 0.04);
+
+$box-shadow-3: 0px 6px 5px rgb(0, 0, 0, 0.02), 0px 22px 18px rgb(0, 0, 0, 0.03),
+  0px 100px 80px rgb(0, 0, 0, 0.05);
+
+$box-shadow-4: 0px 6px 5px rgb(0, 0, 0, 0.03), 0px 22px 18px rgb(0, 0, 0, 0.042),
+  0px 100px 80px rgb(0, 0, 0, 0.07);
+
+$box-shadow-5: 0px 6px 5px rgb(0, 0, 0, 0.04), 0px 22px 18px rgb(0, 0, 0, 0.06),
+  0px 100px 80px rgb(0, 0, 0, 0.1);
+
+$body-ff: $ff-base;
+$body-fs: $fs-base;
+$body-fw: $fw-default;
+$body-line-height:1.5;
+$body-text-color: $text-default;
+$body-background-color: $background-default;
+
+$link-color: $interactive-default;
+$link-color-hover: $interactive-hover;
+
+// layout
+$gap-0: $size-0;
+$gap-1: $size-2;
+$gap-2: $size-4;
+$gap-3: $size-6;
+$gap-4: $size-8;
+$gap-5: $size-10;
+$gap-6: $size-12;
+$gap-7: $size-14;
+$gap-8: $size-16;
+$gap-9: $size-20;
+$gap-10: $size-24;
+
+$width-xs: 20rem;
+$width-sm: 24rem;
+$width-md: 28rem;
+$width-lg: 32rem;
+$width-xl: 36rem;
+$width-2xl: 40rem;
+$width-3xl: 42rem;
+$width-4xl: 48rem;
+$width-5xl: 56rem;
+$width-6xl: 64rem;
+$width-7xl: 72rem;
+$width-8xl: 80rem;
+$width-full: 100%;
+$width-min: min-content;
+$width-max: max-content;
+$width-fit: fit-content;
+
+$container-padding: $size-8;
+$container-small: $width-sm;
+$container-medium: $width-lg;

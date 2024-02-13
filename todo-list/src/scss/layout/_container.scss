@@ -1,0 +1,13 @@
+@use '../abstract' as *;
+
+.container {
+  --padding: #{$container-padding} * 2;
+  --max-width: #{$container-small};
+
+  width: min(100% - var(--padding), var(--max-width));
+  margin-inline: auto;
+
+  @include minq(small) {
+    --max-width: #{$container-medium};
+  }
+}

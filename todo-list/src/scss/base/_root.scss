@@ -1,0 +1,34 @@
+@use '../abstract' as *;
+
+:root {
+
+  @each $context,$shades in $theme {
+    @each $shade, $val in $shades {
+      --#{$context}-#{$shade}: #{$val};
+    }
+  }
+
+  @if ($dark-mode) {
+    @media(prefers-color-scheme: dark) {
+      @each $context,$shades in $dark {
+        @each $shade, $val in $shades {
+          --#{$context}-#{$shade}: #{$val};
+        }
+      }
+    }
+  }
+
+  @each $screen-size, $size-map in $font-sizes {
+    @if $screen-size == small {
+      @each $size-name, $size-value in $size-map {
+        --fs-#{$size-name}: #{$size-value};
+      }
+    } @else {
+      @include minq($screen-size) {
+        @each $size-name, $size-value in $size-map {
+          --fs-#{$size-name}: #{$size-value};
+        }
+      }
+    }
+  }
+}

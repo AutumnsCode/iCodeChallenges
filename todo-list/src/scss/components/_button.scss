@@ -1,0 +1,17 @@
+@use '../abstract' as *;
+
+button {
+  border: none;
+  font: inherit;
+  outline:none;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.btn-todos-lists {
+  display: grid;
+  
+  & .btn-todos {
+    
+  }
+}

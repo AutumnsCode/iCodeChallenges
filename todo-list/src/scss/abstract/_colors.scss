@@ -1,0 +1,177 @@
+$light: (
+  text: (
+    10: hsl(0, 16%, 6%, 10%),
+    20: hsl(0, 16%, 6%, 20%),
+    30: hsl(0, 16%, 6%, 30%),
+    40: hsl(0, 16%, 6%, 40%),
+    50: hsl(0, 16%, 6%, 50%),
+    60: hsl(0, 16%, 6%, 60%),
+    70: hsl(0, 16%, 6%, 70%),
+    80: hsl(0, 16%, 6%, 80%),
+    90: hsl(0, 16%, 6%, 90%),
+    100: hsl(0, 16%, 6%, 100%),
+  ),
+  background: (
+    10: hsl(0, 20%, 97%, 10%),
+    20: hsl(0, 20%, 97%, 20%),
+    30: hsl(0, 20%, 97%, 30%),
+    40: hsl(0, 20%, 97%, 40%),
+    50: hsl(0, 20%, 97%, 50%),
+    60: hsl(0, 20%, 97%, 60%),
+    70: hsl(0, 20%, 97%, 70%),
+    80: hsl(0, 20%, 97%, 80%),
+    90: hsl(0, 20%, 97%, 90%),
+    100: hsl(0, 20%, 97%, 100%),
+  ),
+  primary: (
+    10: hsl(357, 36%, 50%, 10%),
+    20: hsl(357, 36%, 50%, 20%),
+    30: hsl(357, 36%, 50%, 30%),
+    40: hsl(357, 36%, 50%, 40%),
+    50: hsl(357, 36%, 50%, 50%),
+    60: hsl(357, 36%, 50%, 60%),
+    70: hsl(357, 36%, 50%, 70%),
+    80: hsl(357, 36%, 50%, 80%),
+    90: hsl(357, 36%, 50%, 90%),
+    100: hsl(357, 36%, 50%, 100%),
+  ),
+  secondary: (
+    10: hsl(64, 10%, 66%, 10%),
+    20: hsl(64, 10%, 66%, 20%),
+    30: hsl(64, 10%, 66%, 30%),
+    40: hsl(64, 10%, 66%, 40%),
+    50: hsl(64, 10%, 66%, 50%),
+    60: hsl(64, 10%, 66%, 60%),
+    70: hsl(64, 10%, 66%, 70%),
+    80: hsl(64, 10%, 66%, 80%),
+    90: hsl(64, 10%, 66%, 90%),
+    100: hsl(64, 10%, 66%, 100%),
+  ),
+  accent: (
+    10: hsl(357, 56%, 61%, 10%),
+    20: hsl(357, 56%, 61%, 20%),
+    30: hsl(357, 56%, 61%, 30%),
+    40: hsl(357, 56%, 61%, 40%),
+    50: hsl(357, 56%, 61%, 50%),
+    60: hsl(357, 56%, 61%, 60%),
+    70: hsl(357, 56%, 61%, 70%),
+    80: hsl(357, 56%, 61%, 80%),
+    90: hsl(357, 56%, 61%, 90%),
+    100: hsl(357, 56%, 61%, 100%),
+  ),
+);
+
+$dark: (
+  text: (
+    10: hsl(0, 16%, 94%, 10%),
+    20: hsl(0, 16%, 94%, 20%),
+    30: hsl(0, 16%, 94%, 30%),
+    40: hsl(0, 16%, 94%, 40%),
+    50: hsl(0, 16%, 94%, 50%),
+    60: hsl(0, 16%, 94%, 60%),
+    70: hsl(0, 16%, 94%, 70%),
+    80: hsl(0, 16%, 94%, 80%),
+    90: hsl(0, 16%, 94%, 90%),
+    100: hsl(0, 16%, 94%, 100%),
+  ),
+  background: (
+    10: hsl(0, 20%, 3%, 10%),
+    20: hsl(0, 20%, 3%, 20%),
+    30: hsl(0, 20%, 3%, 30%),
+    40: hsl(0, 20%, 3%, 40%),
+    50: hsl(0, 20%, 3%, 50%),
+    60: hsl(0, 20%, 3%, 60%),
+    70: hsl(0, 20%, 3%, 70%),
+    80: hsl(0, 20%, 3%, 80%),
+    90: hsl(0, 20%, 3%, 90%),
+    100: hsl(0, 20%, 3%, 100%),
+  ),
+  primary: (
+    10: hsl(357, 36%, 50%, 10%),
+    20: hsl(357, 36%, 50%, 20%),
+    30: hsl(357, 36%, 50%, 30%),
+    40: hsl(357, 36%, 50%, 40%),
+    50: hsl(357, 36%, 50%, 50%),
+    60: hsl(357, 36%, 50%, 60%),
+    70: hsl(357, 36%, 50%, 70%),
+    80: hsl(357, 36%, 50%, 80%),
+    90: hsl(357, 36%, 50%, 90%),
+    100: hsl(357, 36%, 50%, 100%),
+  ),
+  secondary: (
+    10: hsl(64, 10%, 34%, 10%),
+    20: hsl(64, 10%, 34%, 20%),
+    30: hsl(64, 10%, 34%, 30%),
+    40: hsl(64, 10%, 34%, 40%),
+    50: hsl(64, 10%, 34%, 50%),
+    60: hsl(64, 10%, 34%, 60%),
+    70: hsl(64, 10%, 34%, 70%),
+    80: hsl(64, 10%, 34%, 80%),
+    90: hsl(64, 10%, 34%, 90%),
+    100: hsl(64, 10%, 34%, 100%),
+  ),
+  accent: (
+    10: hsl(357, 56%, 39%, 10%),
+    20: hsl(357, 56%, 39%, 20%),
+    30: hsl(357, 56%, 39%, 30%),
+    40: hsl(357, 56%, 39%, 40%),
+    50: hsl(357, 56%, 39%, 50%),
+    60: hsl(357, 56%, 39%, 60%),
+    70: hsl(357, 56%, 39%, 70%),
+    80: hsl(357, 56%, 39%, 80%),
+    90: hsl(357, 56%, 39%, 90%),
+    100: hsl(357, 56%, 39%, 100%),
+  ),
+);
+
+$clr-text-10: var(--text-10);
+$clr-text-20: var(--text-20);
+$clr-text-30: var(--text-30);
+$clr-text-40: var(--text-40);
+$clr-text-50: var(--text-50);
+$clr-text-60: var(--text-60);
+$clr-text-70: var(--text-70);
+$clr-text-80: var(--text-80);
+$clr-text-90: var(--text-90);
+$clr-text-100: var(--text-100);
+$clr-background-10: var(--background-10);
+$clr-background-20: var(--background-20);
+$clr-background-30: var(--background-30);
+$clr-background-40: var(--background-40);
+$clr-background-50: var(--background-50);
+$clr-background-60: var(--background-60);
+$clr-background-70: var(--background-70);
+$clr-background-80: var(--background-80);
+$clr-background-90: var(--background-90);
+$clr-background-100: var(--background-100);
+$clr-primary-10: var(--primary-10);
+$clr-primary-20: var(--primary-20);
+$clr-primary-30: var(--primary-30);
+$clr-primary-40: var(--primary-40);
+$clr-primary-50: var(--primary-50);
+$clr-primary-60: var(--primary-60);
+$clr-primary-70: var(--primary-70);
+$clr-primary-80: var(--primary-80);
+$clr-primary-90: var(--primary-90);
+$clr-primary-100: var(--primary-100);
+$clr-secondary-10: var(--secondary-10);
+$clr-secondary-20: var(--secondary-20);
+$clr-secondary-30: var(--secondary-30);
+$clr-secondary-40: var(--secondary-40);
+$clr-secondary-50: var(--secondary-50);
+$clr-secondary-60: var(--secondary-60);
+$clr-secondary-70: var(--secondary-70);
+$clr-secondary-80: var(--secondary-80);
+$clr-secondary-90: var(--secondary-90);
+$clr-secondary-100: var(--secondary-100);
+
+$clr-accent-10: var(--accent-10);
+$clr-accent-20: var(--accent-20);
+$clr-accent-30: var(--accent-30);
+$clr-accent-40: var(--accent-40);
+$clr-accent-50: var(--accent-50);
+$clr-accent-60: var(--accent-60);
+$clr-accent-70: var(--accent-70);
+$clr-accent-80: var(--accent-80);
+$clr-accent-90: var(--accent-90);
+$clr-accent-100: var(--accent-100);

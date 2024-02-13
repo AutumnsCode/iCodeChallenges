@@ -1,0 +1,14 @@
+@use '../abstract' as *;
+
+.grid-max {
+
+  --grid-gap: #{$gap-2};
+
+  display: grid;
+  gap: var(--grid-gap, 1rem);
+  grid-template-columns: 1fr;
+
+  @include minq(small) {
+    grid-template-columns: $width-max 1fr;
+  }
+}

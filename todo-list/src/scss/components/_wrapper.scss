@@ -1,0 +1,6 @@
+@use '../abstract' as *;
+
+.wrapper {
+  padding: $size-4;
+  background: $clr-primary-10;
+}
